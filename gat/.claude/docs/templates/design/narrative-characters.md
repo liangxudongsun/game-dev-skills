@@ -7,45 +7,36 @@
 > **Source World**: gat/narrative/world.md
 > **Source Art Direction**: gat/overview/art-direction.md
 
-## 1. Cast Strategy
+## 1. Summary
 
-- Cast size target:
-- Character function in gameplay:
-- Character design principles:
-- Voice principles:
+[In one short paragraph of 2–3 sentences, introduce the central cast, their relationships to the player, and the main tensions or changes that give the ensemble its character.]
 
-## 2. Core Cast
+## 2. Cast Strategy
 
-> One row per major character. Voice/naming rules and per-character content
-> needs are folded into this table instead of living in separate sections.
+- **Cast scope**: [How many central relationships the story needs]
+- **Player relationship**: [What kinds of interaction define the cast]
+- **Voice principle**: [What makes voices distinct without breaking tone]
 
-| Character | Story Role | Gameplay Role | Want | Need | Conflict | Arc | Voice Keywords | Voice / Naming Rules | Required Scenes / Barks | Notes |
-|-----------|------------|---------------|------|------|----------|-----|----------------|----------------------|-------------------------|-------|
-| [Name] | Protagonist / Antagonist / Ally / Rival / Guide | | | | | | | [vocabulary / sentence shape / avoid] | | |
+## 3. Core Cast
 
-## 3. Character Briefs
+- **[Character]**: [Story role and relationship to the player in one sentence]
+
+## 4. Character Briefs
 
 ### [Character Name]
 
-- **Role**:
-- **Player relationship**:
-- **Motivation**:
-- **Obstacle**:
-- **Stakes**:
-- **Arc**:
-- **Key relationships**:
-- **Voice sample**:
-- **Visual notes**:
-- **Content needs**:
+- **Want and need**: [What they pursue and what they must confront]
+- **Conflict and stakes**: [What opposes them and what they risk]
+- **Arc**: [How their behavior or relationship changes]
+- **Gameplay role**: [What player interaction they support]
+- **Voice**: [Vocabulary, rhythm, or a short sample line]
+- **Visual identity**: [Design cues linked to personality or role]
+- **Defining scene**: [A moment that reveals the character, if needed]
 
-## 4. Relationship Web
+## 5. Relationship Changes
 
-| Pair / Group | Relationship | Tension | How It Changes |
-|--------------|--------------|---------|----------------|
-| [A ↔ B] | | | |
+- **[Pair or group]**: [Starting relationship → source of tension → meaningful change]
 
-## 5. Open Questions
+## 6. Open Questions
 
-| Question | Owner | Resolution |
-|----------|-------|------------|
-| [Question] | | Pending |
+- [Unresolved character choice and its effect]

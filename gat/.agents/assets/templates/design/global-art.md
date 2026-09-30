@@ -3,90 +3,57 @@
 > **Status**: Draft | In Review | Approved
 > **Last Updated**: [Date]
 > **Owner**: artist
-> **Path**: gat/overview/art-direction.md
 
-## 1. Visual Identity Summary
+## 1. Summary
 
-[2-3 sentences describing the overall visual identity.]
+[In one short paragraph of 2–3 sentences, summarize the game's visual identity, the atmosphere it creates, and the defining artistic choices that make it recognizable.]
 
-## 2. Reference Board
+## 2. Art Direction Description
 
-| Reference | Medium | What We Take | What We Avoid |
-|-----------|--------|--------------|---------------|
-| [Reference] | Game / Film / Art | | |
+[Describe the overall artistic feel in plain language using connected paragraphs. Ground the direction in a representative scene the player will encounter: describe the sense of space and scale, what draws the eye, and how color, light, form, texture, and motion combine into a coherent impression. Explain what being in that scene should feel like and how the atmosphere changes during an important moment of play. The reader should be able to picture the scene and understand its emotional character from this description alone. Use continuous prose without subheadings, lists, or tables; make the feeling concrete rather than relying on style labels or mood keywords.]
 
-## 3. Color Direction
+## 3. Visual Identity
 
-### Primary Palette
+- **First impression**: [What the player should notice and feel]
+- **Distinctive choice**: [What makes this game's visual identity recognizable, and why]
+- **Mood range**: [How the look shifts across important moments]
 
-| Name | Hex | Usage |
-|------|-----|-------|
-| [Color] | #[HEX] | |
+## 4. References
 
-### Emotional Color Mapping
+- **[Reference]**: Adopt [specific quality]; avoid [specific quality].
 
-> **As-needed** — omit unless the game maps colors to distinct game states.
+## 5. Color And Light
 
-| Game State | Dominant Colors | Mood |
-|------------|-----------------|------|
-| Exploration | | |
-| Combat | | |
-| Safe State | | |
-| Danger | | |
+- **Primary palette**: [Key colors, optional hex values, and where each is used]
+- **Accent and warning colors**: [What they signal; how they remain distinct]
+- **Emotional shifts**: [How color or light changes between important situations]
+- **Lighting**: [Contrast, direction, softness, and the intended mood]
 
-## 4. Art Style
+## 6. Form And Surface
 
-- Rendering style:
-- Proportions:
-- Level of detail:
-- Visual hierarchy:
+- **Shape language and proportions**: [Recognizable forms and silhouette rules]
+- **Materials and texture**: [Surface qualities and their narrative or gameplay meaning]
+- **Detail level**: [Where detail is concentrated and where it is restrained]
+- **Rendering style**: [The overall treatment of form, edges, and depth]
 
-## 5. Shared Style Rules
+## 7. Composition And Readability
 
-- Shape language:
-- Material or surface language:
-- Lighting direction:
-- Texture or detail level:
-- Motion language:
+- **Visual hierarchy**: [What draws the eye first, second, and last]
+- **Scene / UI relationship**: [How gameplay space and interface share attention]
+- **Accessibility**: [How critical information remains legible without color alone]
 
-## 6. Asset Group Strategy
+## 8. Motion, Effects, And Sound
 
-| Asset Group | Purpose | Priority | Notes |
-|-------------|---------|----------|-------|
-| Characters | | High / Medium / Low | |
-| Environment | | | |
-| UI | | | |
-| Effects | | | |
-| Audio | | | |
+- **Motion language**: [Weight, rhythm, exaggeration, and restraint]
+- **Effects language**: [How feedback differs by importance or emotion]
+- **Sound character**: [Broad sonic qualities that support the same identity]
 
-## 7. Production Standards
+## 9. Asset Direction
 
-> **As-needed** — omit until production actually starts; resolution/format tables are premature pre-production. Keep the section available so it can be filled later.
+- **Key families**: [Characters, environments, UI, effects, or other needed families and their visual purpose]
+- **Consistency and reuse**: [Motifs or rules shared across families]
+- **Avoid**: [Treatments that would break the intended look or clarity]
 
-### Naming Convention
+## 10. Open Questions
 
-`[category]_[name]_[variant]_[size].[ext]`
-
-### Technical Standards
-
-| Category | Max Resolution | Format | Notes |
-|----------|----------------|--------|-------|
-| Characters | | | |
-| Environment | | | |
-| UI | | | |
-| VFX | | | |
-
-## 8. Accessibility And Readability
-
-- Colorblind-safe signaling:
-- Minimum text or icon readability expectations:
-- Contrast expectations:
-- Never rely on color alone for critical game state:
-
-## 9. Constraints
-
-- Engine or technical limits:
-- Reuse strategy:
-- Consistency rules:
-- Per-milestone system art docs (`gat/milestone/m{N}-<name>/<system>/<system>-art-m{N}.md`) should inherit from this file instead of restating it wholesale.
-
+- [Unresolved visual choice and its effect, if any]

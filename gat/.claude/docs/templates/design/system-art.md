@@ -1,49 +1,48 @@
 # System Art Doc: [System Name]
 
 > **Status**: Draft | In Review | Approved
-> **System**: [System name]
-> **Milestone**: [e.g. M1 — the milestone this art doc is scoped to]
+> **Milestone**: [M{N}]
 > **Source GDD**: gat/milestone/m{N}-<name>/<system>/<system>-gdd-m{N}.md
 > **Global Art Direction**: gat/overview/art-direction.md
 
-## 1. System Visual Summary
+## 1. Summary
 
-- What this system should look and feel like:
-- Main visual purpose:
-- What the player should notice first:
+[In one short paragraph of 2–3 sentences, summarize this system's visual character, what the player must notice or feel, and how its treatment fits the global art direction.]
 
-## 2. Style Anchors
+## 2. Art Description
 
-- Shape language inherited from global direction:
-- Color use:
-- Motion or timing feel:
-- Visual hierarchy notes:
+[Describe this system's artistic treatment in plain language using connected paragraphs. Follow a representative interaction from what the player first sees through the action and its feedback, explaining how form, color, light, motion, and sound create a recognizable feel. Make clear what draws attention, what stays subtle, and how the scene feels as the interaction unfolds. Focus on this system's expression within the shared art direction. Use continuous prose without subheadings, lists, tables, or an asset inventory.]
 
-## 3. Feedback Events
+## 3. Visual Intent
 
-> Inherit event names from the source GDD's Feedback Events list. Expand each
-> event here with visual/audio needs and priority — do not re-enumerate events
-> from scratch.
+- **Purpose**: [What this system must help the player notice or understand]
+- **Inherited direction**: [Relevant shared rules from the global art direction]
+- **Local choice**: [Distinct treatment for this system and why it serves play]
 
-| Event (from GDD) | Visual Need | Audio Need | Priority | Notes |
-|-------------------|-------------|------------|----------|-------|
-| [Event] | | | High / Medium / Low | |
+## 4. Visual Language
 
-## 4. Asset Candidates
+- **Shape and silhouette**: [What makes the system's elements recognizable]
+- **Color and light**: [Use, contrast, and emotional role]
+- **Material and detail**: [Surface treatment and where detail matters]
+- **Composition and hierarchy**: [What draws attention during play]
+- **Motion**: [Timing, weight, and intensity of movement]
 
-| Asset | Purpose | Reuse Candidate | Priority |
-|-------|---------|-----------------|----------|
-| [Asset] | | Yes / No | High / Medium / Low |
+## 5. Player Feedback
 
-## 5. UI Or Readability Notes
+### [Event Or Condition Named In The GDD]
 
-- Information that must be readable:
-- What should stay subtle:
-- Accessibility concerns:
+- **Meaning**: [What the player must understand]
+- **Visual treatment**: [Form, color, motion, and relative emphasis]
+- **Audio treatment**: [Character and relative prominence, if needed]
+- **Timing and persistence**: [How the cue begins, holds, or ends in the experience]
 
-## 6. Constraints
+## 6. Readability And Asset Concepts
 
-- Reuse:
-- Budget:
-- Things to avoid:
-- Dependencies on other system art docs:
+- **Critical information**: [What must remain clear, including without color alone]
+- **Subtle information**: [What should not compete for attention]
+- **Asset concepts**: [Only needed families or motifs, with purpose and reuse]
+- **Constraints**: [Design-relevant limits or things to avoid]
+
+## 7. Open Questions
+
+- [Unresolved visual choice and its effect, if any]

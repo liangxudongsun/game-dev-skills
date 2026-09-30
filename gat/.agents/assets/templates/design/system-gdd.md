@@ -1,115 +1,63 @@
 # System GDD: [System Name]
 
-> **Status**: Draft | In Review | Approved | Implemented
-> **Category**: Core | Gameplay | Progression | Economy | UI | Audio | Narrative | Meta
-> **Priority**: MVP | Vertical Slice | Alpha | Later
-> **Layer**: Foundation | Core | Feature | Presentation
+> **Status**: Draft | In Review | Approved
+> **Milestone**: [M{N}]
 > **Last Updated**: [Date]
-> **Milestone**: [e.g. M1 — fill with the milestone this GDD is scoped to]
 > **Source Overview**: gat/overview/game.md
 > **Source Index**: gat/overview/systems-index.md
 > **Milestone Brief**: gat/milestone/m{N}-<name>/m{N}-brief.md
 
 ## 1. Summary & Goal
 
-[2-3 sentences describing what this system is, what the player experiences, and why it exists.]
+[2–3 sentences describing what this system is, what the player experiences, and why it exists in this milestone.]
 
-- **Does**: [what this system does]
-- **Boundaries**: [what it must not own — which adjacent system owns that responsibility]
+- **Goal**: [The player-facing outcome this system is meant to achieve]
+- **Boundary**: [What this system owns; what belongs to another system]
 
-> **Style Rule — No Pseudocode**: GDDs define rules, behaviors, and parameters using natural language and mathematical formulas. Do NOT write pseudocode blocks, data structures, or algorithm descriptions. Implementation (code architecture, data structures, algorithms, optimization) is owned by downstream engineering workflow, not by the designer.
+## 2. System Description
 
-> **Quick Reference** - Depends On: `[System names or none]` | Related Art Doc: `gat/milestone/m{N}-<name>/<system>/<system>-art-m{N}.md`
+[Describe the whole system in plain language using connected paragraphs, with enough detail to understand it without reading the later sections. Walk through how the player encounters it, what they do and choose, how the system responds, and how a typical experience develops and concludes. Weave important rules, conditions, limits, feedback, and their design reasons into that narrative. Use continuous prose without subheadings, lists, tables, or a field-by-field recap of the later sections.]
 
-> **Scope note**: This GDD is scoped to the milestone named above. A later
-> milestone may redefine this system differently — additions, modifications, or
-> conflicts with an earlier milestone's version are legitimate iteration.
+## 3. Player Flow
 
-## 2. Player Experience
+1. [Player action or event → system response → visible consequence]
+2. [Next meaningful step, including success or failure when relevant]
 
-- What the player feels:
-- What the player does:
+## 4. Rules And Cases
 
-> Keep this to one or two lines. Express success/failure as measurable
-> Acceptance Criteria in §6, not as subjective "feels good" language here.
+> Number rules sequentially from 01, with a short descriptive title for each.
 
-## 3. Detailed Design
+### Rule 01 : [Rule Name]
 
-### Core Rules
+[Explain this rule in player terms: when it applies, how it shapes play, what happens as a result, and the design reason behind it.]
 
-1. [Rule]
-2. [Rule]
+**Choice or trade-off:** [Explain what the player can weigh or change under this rule.]
 
-### States And Transitions
+**Boundary cases:** [Explain what happens at a limit, interruption, or failure, if it affects play.]
 
-| State | Entry Condition | Exit Condition | Behavior |
-|-------|-----------------|----------------|----------|
-| [State] | | | |
+## 5. Formulas And Tuning
 
-### Interactions With Other Systems
+> Number formulas sequentially from 01, independently of rules, with a short descriptive title for each.
 
-> One table for all cross-system relationships: data flow (Input/Output),
-> dependency direction, and ownership notes. Use this instead of separate
-> Inputs/Outputs or Dependencies sections.
+### Formula 01 : [Mechanic Or Formula Name]
 
-| Other System | Direction | Input From Them | Output To Them | Ownership Notes |
-|--------------|-----------|-----------------|----------------|-----------------|
-| [System] | Depends on / Used by | | | [Which system owns which value or decision] |
+- **Design meaning**: [What the relationship represents in play]
+- **Formula**: `[result = expression]`
+- **Terms**: [Define each term in words, including any condition or cap]
+- **Initial range and reason**: [Proposed values and the intended feel]
+- **Worked example**: [Use concrete values to show the player-facing result]
+- **Tuning effect**: [What changes when a value rises or falls]
 
-## 4. Formulas & Parameters
+## 6. Other Systems And Player Feedback
 
-### [Formula Name]
+- **Dependency**: [Other system and the behavior needed from it, if any]
+- **Effect on another system**: [Player-facing consequence, if any]
+- **Feedback**: [Meaningful event or condition → what the player must perceive; visual and audio treatment belongs in the art doc]
 
-```text
-result = [expression]
-```
+## 7. Observable Outcomes
 
-> Use mathematical notation to describe design formulas. Do NOT write implementation pseudocode (loops, conditionals, variable assignments). Keep formulas at the design level — what is computed, not how the engine computes it.
+- [What a player or reviewer can observe to judge whether the intended design is present]
 
-> One table covers both formula variables and tuning knobs. Mark a parameter
-> tunable when the designer expects to adjust it during balancing.
+## 8. Open Questions
 
-| Name | Type | Range | Source | Tunable? | Effect Of Increase | Effect Of Decrease | Description |
-|------|------|-------|--------|----------|--------------------|--------------------|-------------|
-| [Name] | int / float / bool | | | Yes / No | | | |
-
-**Expected output range**:
-**Worked example**:
-
-## 5. Edge Cases
-
-> **As-needed** — omit unless the system has boundary behavior worth calling out separately. Otherwise fold edge behavior into Core Rules (§3) or Acceptance Criteria (§6).
-
-| Scenario | Expected Behavior | Rationale |
-|----------|-------------------|-----------|
-| [Scenario] | | |
-
-## 6. Acceptance Criteria
-
-- [ ] [Specific, testable criterion]
-- [ ] [Specific, testable criterion]
-- [ ] Performance or implementation constraint if relevant
-
-## 7. UI Requirements
-
-> **As-needed** — omit this section for systems with no player-facing UI.
-
-| Information | Display Location | Update Frequency | Condition |
-|-------------|------------------|------------------|-----------|
-| [Info] | | | |
-
-## 8. Feedback Events
-
-> List feedback event names only. The system art doc
-> (`<system>-art-m{N}.md`) expands each event with visual/audio needs and
-> priority — do not duplicate that expansion here.
-
-- [Event name]
-- [Event name]
-
-## 9. Open Questions
-
-| Question | Owner | Resolution |
-|----------|-------|------------|
-| [Question] | | Pending |
-
+- [Unresolved design choice and its consequence, if any]

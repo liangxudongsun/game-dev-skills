@@ -7,55 +7,44 @@
 > **Source Characters**: gat/narrative/characters.md
 > **Source Quests**: gat/narrative/quests.md
 
-## 1. Dialogue Strategy
+## 1. Summary
 
-- Dialogue purpose:
-- Expected reading pace:
-- Skippable / replayable rules:
-- Localization constraints:
-- VO assumption:
+[In one short paragraph of 2–3 sentences, describe the overall voice and conversational feel, the player's role in exchanges, and what dialogue contributes to the experience.]
 
-## 2. Voice Guide
+## 2. Dialogue Intent
 
-| Character / Group | Voice Keywords | Sample Line | Notes |
-|-------------------|----------------|-------------|-------|
-| [Name or group] | | | |
+- **Purpose**: [What dialogue reveals or lets the player decide]
+- **Reading pace and interaction**: [How long conversations feel and when players can move on]
+- **Voice or localization boundary**: [Only constraints that affect writing]
 
-## 3. Conversation Patterns
+## 3. Voice Guide
 
-| Pattern | Use Case | Max Length | Choice Rules | Notes |
-|---------|----------|------------|--------------|-------|
-| [Pattern] | | | | |
+### [Character Or Group]
 
-## 4. Bark Catalog
+- **Voice**: [Vocabulary, sentence shape, rhythm, and what to avoid]
+- **Sample line**: [One line that demonstrates the rule]
 
-| Bark ID | Speaker | Trigger | Line | Cooldown / Repeat Rule |
-|---------|---------|---------|------|------------------------|
-| bark_001 | | | | |
+## 4. Conversation Design
 
-## 5. Sample Conversations
+- **Pattern**: [When a conversation occurs and what choice or revelation it carries]
+- **Player agency**: [What can change through a reply, if anything]
+- **Repetition**: [How recurring dialogue remains meaningful]
 
-### [Conversation Name]
+### Sample: [Conversation Name]
 
-- **Context**:
-- **Goal**:
-- **Participants**:
-- **Outcome**:
+- **Context and purpose**: [Why this exchange happens]
+- **Outcome**: [What the player learns or changes]
 
 ```text
 [Speaker]: [Line]
 [Speaker]: [Line]
 ```
 
-## 6. UI / Objective Text
+## 5. Barks And Objective Text
 
-| Context | Text | Tone Notes |
-|---------|------|------------|
-| Objective | | |
+- **Bark**: [Situation → line → what it communicates]
+- **Objective text**: [Player situation → concise instruction or reminder]
 
-## 7. Open Questions
+## 6. Open Questions
 
-| Question | Owner | Resolution |
-|----------|-------|------------|
-| [Question] | | Pending |
-
+- [Unresolved voice or dialogue choice and its effect]

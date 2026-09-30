@@ -4,139 +4,98 @@
 > **Last Updated**: [Date]
 > **Owner**: designer
 
-## 1. Vision
+## 1. Summary
 
-- Game title:
-- Genre:
-- Platform target:
-- Target player:
-- One-sentence pitch:
-- Unique hook:
+[2–3 sentences describing what the game is, who the player becomes, what they do, and the core experience it aims to deliver.]
 
-## 2. Core Fantasy
+## 2. Game Description
 
-- What the player gets to be or do:
-- Why this is exciting:
-- What this game is not:
+[Describe the game as a whole in plain language using connected paragraphs, with enough detail to understand it without reading the later sections. Walk through the player's role, goals, actions, choices, and the game's responses over a typical session. Explain how the main systems work together, how the experience develops, and what makes it compelling or worth returning to. Weave important design choices and their reasons into the narrative. Use continuous prose without subheadings, lists, tables, or a field-by-field recap of the later sections.]
 
-## 3. Pillars
+## 3. Vision
 
-| Pillar | Description | Design Test |
-|--------|-------------|-------------|
-| Pillar 1 | | |
-| Pillar 2 | | |
-| Pillar 3 | | |
+- **Genre**: [The kind of game and its defining mode of play]
+- **Platform target**: [Where and how the player plays]
+- **Target player**: [Who the game is for and what they seek from it]
+- **Pitch**: [Who the player is, what they do, and the hook]
+- **Unique hook**: [What makes this experience distinctive]
 
-## 4. Core Loop
+## 4. Core Fantasy
+
+- **Player role**: [What the player gets to be or do]
+- **Appeal**: [Why this role or activity is exciting]
+- **Boundary**: [What the game is not trying to offer]
+
+## 5. Design Pillars
+
+### [Pillar]
+
+- **Meaning in play**: [How this shapes player choices, challenge, or feedback]
+- **Design test**: [How to judge whether a proposed feature supports it]
+
+## 6. Core Loop
 
 ### Moment-to-Moment Loop
 
-- Player action:
-- Immediate feedback:
-- Short reward:
+- **Action and choice**: [What the player repeatedly does and weighs]
+- **Immediate feedback**: [How the game responds and makes the result clear]
+- **Reward or cost**: [What motivates or constrains the next action]
 
 ### Session Loop
 
-- Medium-term goal:
-- Progress marker:
-- Failure state:
+- **Goal**: [What the player tries to accomplish in one session]
+- **Progress**: [How the player recognizes advancement]
+- **Success and failure**: [How a session ends and what carries forward]
 
 ### Long-Term Loop
 
-- What keeps the player returning:
-- What evolves over time:
+- **Evolution**: [How challenge, options, or player mastery develop]
+- **Reason to return**: [What changes or remains worth pursuing]
 
-## 5. Player Experience
+## 7. Player Experience
 
-- Target feelings:
-- Emotional arc:
-- Pace:
-- Reference games and what they contribute:
+- **Target feelings**: [The emotions the core play should create]
+- **Emotional arc**: [How tension, relief, surprise, or mastery change during play]
+- **Pace**: [The rhythm of action, decisions, and pauses]
+- **Challenge and learning**: [What the player must learn and how difficulty develops]
+- **References**: [Specific experiences to adopt or avoid, and why]
 
-| Reference | What We Borrow | What We Avoid |
-|-----------|----------------|---------------|
-| [Game / film / other] | | |
+## 8. System Summary
 
-## 6. System Summary
+- **[System]**: [Its distinct contribution to the core loop or player experience]
+- **System registry**: gat/overview/systems-index.md
 
-| System | Why It Exists | Priority | Notes |
-|--------|---------------|----------|-------|
-| [System name] | | MVP / Later | |
+## 9. Scope
 
-- Systems that must be designed first:
-- Systems intentionally out of scope:
+- **First meaningful slice**: [Player-facing capabilities required]
+- **Deferred**: [Features reserved for later]
+- **Excluded**: [Explicit non-goals]
 
-## 7. Scope
+## 10. Shared Design Requirements
 
-### Must Have
+- **Interaction format**: [Perspective, controls, or player relationships that shape the whole experience]
+- **Readability and accessibility**: [Shared requirements for understanding and participating in play]
+- **Continuity**: [What the player expects when pausing, retrying, or returning, if relevant]
+- **Visual and audio intent**: [The overall sensory character; detailed direction lives in gat/overview/art-direction.md]
 
-- [Feature]
+## 11. Key Design Decisions
 
-### Nice to Have
+### [Decision]
 
-- [Feature]
+[Describe one foundational choice that needs an explicit record.]
 
-### Out of Scope
+**Why:** [The design reason and relevant trade-off; omit if self-evident.]
 
-- [Feature]
+**Consequence:** [What this requires or rules out elsewhere in the design.]
 
-## 8. Production Intent
+## 12. Narrative Summary
 
-- First playable target:
-- Core features to implement first:
-- Biggest production unknown:
+- **Premise**: [The central situation or conflict, if narrative matters]
+- **Player role**: [How the player participates in the story]
+- **Tone**: [The intended narrative voice and mood]
+- **Delivery**: [How story reaches the player through play]
+- **Narrative sources**: [Relevant gat/narrative/*.md, when available]
 
-> Vertical-slice target and milestone shape belong in the milestone plan
-> (`gat/milestone/milestone.md`), not here.
+## 13. Open Questions
 
-## 9. Shared Requirements
-
-### Technical Constraints
-
-- Engine or stack assumptions:
-- Performance expectations:
-- Save/load or networking considerations:
-
-### Shared Content Requirements
-
-- Visual style keywords:
-- Asset categories:
-- Priority assets:
-- Audio needs:
-
-## 10. Key Design Decisions
-
-> Foundational choices resolved during brainstorm. Each entry is one decision.
-> Loop A re-entry may add or supersede entries when engineering or
-> later-milestone feedback surfaces a change.
-
-### Decision 1
-
-[One paragraph describing the choice.]
-
-**Why:** [Optional — One short paragraph describing the rationale, and 
-what alternatives were rejected. Omit when the choice is self-evident.]
-
-### Decision 2
-
-[One paragraph describing the choice.]
-
-## 11. Narrative Summary
-
-> Fill this section only if the game has a narrative component. Keep it to a short handoff summary; use `$gat-story` for story, world, character, quest, and dialogue details. For pure arcade/abstract games, ignore it.
-
-- Narrative premise:
-- Player role in the story:
-- Tone keywords:
-- Narrative delivery needs:
-- Key narrative dependency or open question:
-
-## 12. Open Questions
-
-> Risks live in the milestone brief (`m{N}-brief.md`), the handoff packet — not here.
-
-| Question | Owner | Resolution |
-|----------|-------|------------|
-| [Question] | | Pending |
-
-
+- [Only decisions still needed; name their effect on the design]
